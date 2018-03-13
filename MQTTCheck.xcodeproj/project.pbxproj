@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB43CCE820580CDE00100A9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43CCE720580CDE00100A9A /* AppDelegate.m */; };
+		DB43CCEB20580CDE00100A9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43CCEA20580CDE00100A9A /* ViewController.m */; };
+		DB43CCEE20580CDE00100A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB43CCEC20580CDE00100A9A /* Main.storyboard */; };
+		DB43CCF120580CDE00100A9A /* MQTTCheck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB43CCEF20580CDE00100A9A /* MQTTCheck.xcdatamodeld */; };
+		DB43CCF320580CDE00100A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB43CCF220580CDE00100A9A /* Assets.xcassets */; };
+		DB43CCF620580CDE00100A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB43CCF420580CDE00100A9A /* LaunchScreen.storyboard */; };
+		DB43CCF920580CDE00100A9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43CCF820580CDE00100A9A /* main.m */; };
+		DB43CD0320580CDF00100A9A /* MQTTCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43CD0220580CDF00100A9A /* MQTTCheckTests.m */; };
+		DB43CD0E20580CDF00100A9A /* MQTTCheckUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43CD0D20580CDF00100A9A /* MQTTCheckUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB43CCFF20580CDF00100A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB43CCDB20580CDE00100A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB43CCE220580CDE00100A9A;
+			remoteInfo = MQTTCheck;
+		};
+		DB43CD0A20580CDF00100A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB43CCDB20580CDE00100A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB43CCE220580CDE00100A9A;
+			remoteInfo = MQTTCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB43CCE320580CDE00100A9A /* MQTTCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTTCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43CCE620580CDE00100A9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB43CCE720580CDE00100A9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB43CCE920580CDE00100A9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB43CCEA20580CDE00100A9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB43CCED20580CDE00100A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB43CCF020580CDE00100A9A /* MQTTCheck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MQTTCheck.xcdatamodel; sourceTree = "<group>"; };
+		DB43CCF220580CDE00100A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB43CCF520580CDE00100A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB43CCF720580CDE00100A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB43CCF820580CDE00100A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB43CCFE20580CDF00100A9A /* MQTTCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQTTCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43CD0220580CDF00100A9A /* MQTTCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTTCheckTests.m; sourceTree = "<group>"; };
+		DB43CD0420580CDF00100A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB43CD0920580CDF00100A9A /* MQTTCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQTTCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43CD0D20580CDF00100A9A /* MQTTCheckUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTTCheckUITests.m; sourceTree = "<group>"; };
+		DB43CD0F20580CDF00100A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB43CCE020580CDE00100A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43CCFB20580CDF00100A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43CD0620580CDF00100A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB43CCDA20580CDE00100A9A = {
+			isa = PBXGroup;
+			children = (
+				DB43CCE520580CDE00100A9A /* MQTTCheck */,
+				DB43CD0120580CDF00100A9A /* MQTTCheckTests */,
+				DB43CD0C20580CDF00100A9A /* MQTTCheckUITests */,
+				DB43CCE420580CDE00100A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB43CCE420580CDE00100A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB43CCE320580CDE00100A9A /* MQTTCheck.app */,
+				DB43CCFE20580CDF00100A9A /* MQTTCheckTests.xctest */,
+				DB43CD0920580CDF00100A9A /* MQTTCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB43CCE520580CDE00100A9A /* MQTTCheck */ = {
+			isa = PBXGroup;
+			children = (
+				DB43CCE620580CDE00100A9A /* AppDelegate.h */,
+				DB43CCE720580CDE00100A9A /* AppDelegate.m */,
+				DB43CCE920580CDE00100A9A /* ViewController.h */,
+				DB43CCEA20580CDE00100A9A /* ViewController.m */,
+				DB43CCEC20580CDE00100A9A /* Main.storyboard */,
+				DB43CCF220580CDE00100A9A /* Assets.xcassets */,
+				DB43CCF420580CDE00100A9A /* LaunchScreen.storyboard */,
+				DB43CCF720580CDE00100A9A /* Info.plist */,
+				DB43CCF820580CDE00100A9A /* main.m */,
+				DB43CCEF20580CDE00100A9A /* MQTTCheck.xcdatamodeld */,
+			);
+			path = MQTTCheck;
+			sourceTree = "<group>";
+		};
+		DB43CD0120580CDF00100A9A /* MQTTCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB43CD0220580CDF00100A9A /* MQTTCheckTests.m */,
+				DB43CD0420580CDF00100A9A /* Info.plist */,
+			);
+			path = MQTTCheckTests;
+			sourceTree = "<group>";
+		};
+		DB43CD0C20580CDF00100A9A /* MQTTCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB43CD0D20580CDF00100A9A /* MQTTCheckUITests.m */,
+				DB43CD0F20580CDF00100A9A /* Info.plist */,
+			);
+			path = MQTTCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB43CCE220580CDE00100A9A /* MQTTCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43CD1220580CDF00100A9A /* Build configuration list for PBXNativeTarget "MQTTCheck" */;
+			buildPhases = (
+				DB43CCDF20580CDE00100A9A /* Sources */,
+				DB43CCE020580CDE00100A9A /* Frameworks */,
+				DB43CCE120580CDE00100A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQTTCheck;
+			productName = MQTTCheck;
+			productReference = DB43CCE320580CDE00100A9A /* MQTTCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB43CCFD20580CDF00100A9A /* MQTTCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43CD1520580CDF00100A9A /* Build configuration list for PBXNativeTarget "MQTTCheckTests" */;
+			buildPhases = (
+				DB43CCFA20580CDF00100A9A /* Sources */,
+				DB43CCFB20580CDF00100A9A /* Frameworks */,
+				DB43CCFC20580CDF00100A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB43CD0020580CDF00100A9A /* PBXTargetDependency */,
+			);
+			name = MQTTCheckTests;
+			productName = MQTTCheckTests;
+			productReference = DB43CCFE20580CDF00100A9A /* MQTTCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB43CD0820580CDF00100A9A /* MQTTCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43CD1820580CDF00100A9A /* Build configuration list for PBXNativeTarget "MQTTCheckUITests" */;
+			buildPhases = (
+				DB43CD0520580CDF00100A9A /* Sources */,
+				DB43CD0620580CDF00100A9A /* Frameworks */,
+				DB43CD0720580CDF00100A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB43CD0B20580CDF00100A9A /* PBXTargetDependency */,
+			);
+			name = MQTTCheckUITests;
+			productName = MQTTCheckUITests;
+			productReference = DB43CD0920580CDF00100A9A /* MQTTCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB43CCDB20580CDE00100A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fnspl;
+				TargetAttributes = {
+					DB43CCE220580CDE00100A9A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB43CCFD20580CDF00100A9A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB43CCE220580CDE00100A9A;
+					};
+					DB43CD0820580CDF00100A9A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB43CCE220580CDE00100A9A;
+					};
+				};
+			};
+			buildConfigurationList = DB43CCDE20580CDE00100A9A /* Build configuration list for PBXProject "MQTTCheck" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB43CCDA20580CDE00100A9A;
+			productRefGroup = DB43CCE420580CDE00100A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB43CCE220580CDE00100A9A /* MQTTCheck */,
+				DB43CCFD20580CDF00100A9A /* MQTTCheckTests */,
+				DB43CD0820580CDF00100A9A /* MQTTCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB43CCE120580CDE00100A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43CCF620580CDE00100A9A /* LaunchScreen.storyboard in Resources */,
+				DB43CCF320580CDE00100A9A /* Assets.xcassets in Resources */,
+				DB43CCEE20580CDE00100A9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43CCFC20580CDF00100A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43CD0720580CDF00100A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB43CCDF20580CDE00100A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43CCEB20580CDE00100A9A /* ViewController.m in Sources */,
+				DB43CCE820580CDE00100A9A /* AppDelegate.m in Sources */,
+				DB43CCF920580CDE00100A9A /* main.m in Sources */,
+				DB43CCF120580CDE00100A9A /* MQTTCheck.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43CCFA20580CDF00100A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43CD0320580CDF00100A9A /* MQTTCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43CD0520580CDF00100A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43CD0E20580CDF00100A9A /* MQTTCheckUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB43CD0020580CDF00100A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB43CCE220580CDE00100A9A /* MQTTCheck */;
+			targetProxy = DB43CCFF20580CDF00100A9A /* PBXContainerItemProxy */;
+		};
+		DB43CD0B20580CDF00100A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB43CCE220580CDE00100A9A /* MQTTCheck */;
+			targetProxy = DB43CD0A20580CDF00100A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB43CCEC20580CDE00100A9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB43CCED20580CDE00100A9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB43CCF420580CDE00100A9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB43CCF520580CDE00100A9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB43CD1020580CDF00100A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB43CD1120580CDF00100A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB43CD1320580CDF00100A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9324V4QSDU;
+				INFOPLIST_FILE = MQTTCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnspl.MQTTCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB43CD1420580CDF00100A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9324V4QSDU;
+				INFOPLIST_FILE = MQTTCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnspl.MQTTCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB43CD1620580CDF00100A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9324V4QSDU;
+				INFOPLIST_FILE = MQTTCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnspl.MQTTCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQTTCheck.app/MQTTCheck";
+			};
+			name = Debug;
+		};
+		DB43CD1720580CDF00100A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9324V4QSDU;
+				INFOPLIST_FILE = MQTTCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnspl.MQTTCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQTTCheck.app/MQTTCheck";
+			};
+			name = Release;
+		};
+		DB43CD1920580CDF00100A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9324V4QSDU;
+				INFOPLIST_FILE = MQTTCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnspl.MQTTCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MQTTCheck;
+			};
+			name = Debug;
+		};
+		DB43CD1A20580CDF00100A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9324V4QSDU;
+				INFOPLIST_FILE = MQTTCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnspl.MQTTCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MQTTCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB43CCDE20580CDE00100A9A /* Build configuration list for PBXProject "MQTTCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43CD1020580CDF00100A9A /* Debug */,
+				DB43CD1120580CDF00100A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43CD1220580CDF00100A9A /* Build configuration list for PBXNativeTarget "MQTTCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43CD1320580CDF00100A9A /* Debug */,
+				DB43CD1420580CDF00100A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43CD1520580CDF00100A9A /* Build configuration list for PBXNativeTarget "MQTTCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43CD1620580CDF00100A9A /* Debug */,
+				DB43CD1720580CDF00100A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43CD1820580CDF00100A9A /* Build configuration list for PBXNativeTarget "MQTTCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43CD1920580CDF00100A9A /* Debug */,
+				DB43CD1A20580CDF00100A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB43CCEF20580CDE00100A9A /* MQTTCheck.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB43CCF020580CDE00100A9A /* MQTTCheck.xcdatamodel */,
+			);
+			currentVersion = DB43CCF020580CDE00100A9A /* MQTTCheck.xcdatamodel */;
+			path = MQTTCheck.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB43CCDB20580CDE00100A9A /* Project object */;
+}
